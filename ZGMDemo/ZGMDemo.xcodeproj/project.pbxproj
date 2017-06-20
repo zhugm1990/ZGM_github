@@ -11,11 +11,11 @@
 		79BD87961EF8B3D400AE431A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87951EF8B3D400AE431A /* AppDelegate.m */; };
 		79BD879E1EF8B3D400AE431A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BD879D1EF8B3D400AE431A /* Assets.xcassets */; };
 		79BD87A11EF8B3D400AE431A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BD879F1EF8B3D400AE431A /* LaunchScreen.storyboard */; };
-		79BD87AA1EF8B4C300AE431A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87A91EF8B4C300AE431A /* MainViewController.m */; };
-		79BD87AD1EF8B4DA00AE431A /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87AC1EF8B4DA00AE431A /* ZZNavigationController.m */; };
-		79BD87B01EF8B66D00AE431A /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87AF1EF8B66D00AE431A /* ZZBaseViewController.m */; };
-		79BD87B81EF8B9A800AE431A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87B51EF8B9A800AE431A /* UIBarButtonItem+Extension.m */; };
-		79BD87B91EF8B9A800AE431A /* UIButton+LXMImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87B71EF8B9A800AE431A /* UIButton+LXMImagePosition.m */; };
+		79BD87CD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87BD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m */; };
+		79BD87CE1EF8FE9C00AE431A /* UIButton+LXMImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87BF1EF8FE9C00AE431A /* UIButton+LXMImagePosition.m */; };
+		79BD87CF1EF8FE9C00AE431A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87C61EF8FE9C00AE431A /* MainViewController.m */; };
+		79BD87D01EF8FE9C00AE431A /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87C81EF8FE9C00AE431A /* ZZBaseViewController.m */; };
+		79BD87D11EF8FE9C00AE431A /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87CA1EF8FE9C00AE431A /* ZZNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,19 +26,22 @@
 		79BD879D1EF8B3D400AE431A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79BD87A01EF8B3D400AE431A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79BD87A21EF8B3D400AE431A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BD87A81EF8B4C300AE431A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		79BD87A91EF8B4C300AE431A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		79BD87AB1EF8B4DA00AE431A /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
-		79BD87AC1EF8B4DA00AE431A /* ZZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
-		79BD87AE1EF8B66D00AE431A /* ZZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
-		79BD87AF1EF8B66D00AE431A /* ZZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
 		79BD87B11EF8B6D800AE431A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		79BD87B21EF8B95B00AE431A /* DefineFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineFiles.h; sourceTree = "<group>"; };
 		79BD87B31EF8B95B00AE431A /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
-		79BD87B41EF8B9A800AE431A /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
-		79BD87B51EF8B9A800AE431A /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
-		79BD87B61EF8B9A800AE431A /* UIButton+LXMImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXMImagePosition.h"; sourceTree = "<group>"; };
-		79BD87B71EF8B9A800AE431A /* UIButton+LXMImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LXMImagePosition.m"; sourceTree = "<group>"; };
+		79BD87BC1EF8FE9C00AE431A /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		79BD87BD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		79BD87BE1EF8FE9C00AE431A /* UIButton+LXMImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXMImagePosition.h"; sourceTree = "<group>"; };
+		79BD87BF1EF8FE9C00AE431A /* UIButton+LXMImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LXMImagePosition.m"; sourceTree = "<group>"; };
+		79BD87C11EF8FE9C00AE431A /* DefineFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineFiles.h; sourceTree = "<group>"; };
+		79BD87C21EF8FE9C00AE431A /* ImportFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
+		79BD87C31EF8FE9C00AE431A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		79BD87C51EF8FE9C00AE431A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		79BD87C61EF8FE9C00AE431A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		79BD87C71EF8FE9C00AE431A /* ZZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBaseViewController.h; sourceTree = "<group>"; };
+		79BD87C81EF8FE9C00AE431A /* ZZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
+		79BD87C91EF8FE9C00AE431A /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
+		79BD87CA1EF8FE9C00AE431A /* ZZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +74,7 @@
 		79BD87901EF8B3D400AE431A /* ZGMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				79BD87AE1EF8B66D00AE431A /* ZZBaseViewController.h */,
-				79BD87AF1EF8B66D00AE431A /* ZZBaseViewController.m */,
-				79BD87A81EF8B4C300AE431A /* MainViewController.h */,
-				79BD87A91EF8B4C300AE431A /* MainViewController.m */,
-				79BD87AB1EF8B4DA00AE431A /* ZZNavigationController.h */,
-				79BD87AC1EF8B4DA00AE431A /* ZZNavigationController.m */,
-				79BD87B41EF8B9A800AE431A /* UIBarButtonItem+Extension.h */,
-				79BD87B51EF8B9A800AE431A /* UIBarButtonItem+Extension.m */,
-				79BD87B61EF8B9A800AE431A /* UIButton+LXMImagePosition.h */,
-				79BD87B71EF8B9A800AE431A /* UIButton+LXMImagePosition.m */,
+				79BD87BA1EF8FE9C00AE431A /* Classes */,
 				79BD879D1EF8B3D400AE431A /* Assets.xcassets */,
 				79BD879F1EF8B3D400AE431A /* LaunchScreen.storyboard */,
 				79BD87A21EF8B3D400AE431A /* Info.plist */,
@@ -100,6 +94,66 @@
 				79BD87B31EF8B95B00AE431A /* ImportFiles.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79BD87BA1EF8FE9C00AE431A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79BD87BB1EF8FE9C00AE431A /* Category */,
+				79BD87C01EF8FE9C00AE431A /* ConstFiles */,
+				79BD87C41EF8FE9C00AE431A /* Controllers */,
+				79BD87CB1EF8FE9C00AE431A /* Models */,
+				79BD87CC1EF8FE9C00AE431A /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79BD87BB1EF8FE9C00AE431A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				79BD87BC1EF8FE9C00AE431A /* UIBarButtonItem+Extension.h */,
+				79BD87BD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m */,
+				79BD87BE1EF8FE9C00AE431A /* UIButton+LXMImagePosition.h */,
+				79BD87BF1EF8FE9C00AE431A /* UIButton+LXMImagePosition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		79BD87C01EF8FE9C00AE431A /* ConstFiles */ = {
+			isa = PBXGroup;
+			children = (
+				79BD87C11EF8FE9C00AE431A /* DefineFiles.h */,
+				79BD87C21EF8FE9C00AE431A /* ImportFiles.h */,
+				79BD87C31EF8FE9C00AE431A /* PrefixHeader.pch */,
+			);
+			path = ConstFiles;
+			sourceTree = "<group>";
+		};
+		79BD87C41EF8FE9C00AE431A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				79BD87C51EF8FE9C00AE431A /* MainViewController.h */,
+				79BD87C61EF8FE9C00AE431A /* MainViewController.m */,
+				79BD87C71EF8FE9C00AE431A /* ZZBaseViewController.h */,
+				79BD87C81EF8FE9C00AE431A /* ZZBaseViewController.m */,
+				79BD87C91EF8FE9C00AE431A /* ZZNavigationController.h */,
+				79BD87CA1EF8FE9C00AE431A /* ZZNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		79BD87CB1EF8FE9C00AE431A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79BD87CC1EF8FE9C00AE431A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,13 +226,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BD87B81EF8B9A800AE431A /* UIBarButtonItem+Extension.m in Sources */,
+				79BD87CE1EF8FE9C00AE431A /* UIButton+LXMImagePosition.m in Sources */,
+				79BD87CD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m in Sources */,
+				79BD87D11EF8FE9C00AE431A /* ZZNavigationController.m in Sources */,
 				79BD87961EF8B3D400AE431A /* AppDelegate.m in Sources */,
-				79BD87AA1EF8B4C300AE431A /* MainViewController.m in Sources */,
-				79BD87B01EF8B66D00AE431A /* ZZBaseViewController.m in Sources */,
+				79BD87D01EF8FE9C00AE431A /* ZZBaseViewController.m in Sources */,
+				79BD87CF1EF8FE9C00AE431A /* MainViewController.m in Sources */,
 				79BD87931EF8B3D400AE431A /* main.m in Sources */,
-				79BD87B91EF8B9A800AE431A /* UIButton+LXMImagePosition.m in Sources */,
-				79BD87AD1EF8B4DA00AE431A /* ZZNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ZGMDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ZGMDemo/Classes/ConstFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = ZGMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zgm.ZGMDemo;
@@ -304,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ZGMDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = ZGMDemo/Classes/ConstFiles/PrefixHeader.pch;
 				INFOPLIST_FILE = ZGMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zgm.ZGMDemo;
@@ -331,6 +385,7 @@
 				79BD87A71EF8B3D400AE431A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
