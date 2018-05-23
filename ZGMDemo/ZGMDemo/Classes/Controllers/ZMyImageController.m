@@ -1,0 +1,39 @@
+//
+//  ZMyImageController.m
+//  ZGMDemo
+//
+//  Created by 林帆 on 2018/5/23.
+//  Copyright © 2018年 zhuguoming. All rights reserved.
+//
+
+#import "ZMyImageController.h"
+
+@interface ZMyImageController ()
+
+@end
+
+@implementation ZMyImageController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.customTitle = @"图片缓存";
+//    self.leftItemTitle = @"返回";
+    self.rightItemTitle = @"点击";
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

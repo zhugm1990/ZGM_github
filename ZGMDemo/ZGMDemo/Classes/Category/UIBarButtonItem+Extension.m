@@ -31,8 +31,8 @@
         [barButton setTitle:title forState:UIControlStateNormal];
         [barButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [barButton setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
-        barButton.titleLabel.font = KFONT(15.0f);
-        CGSize titleSize = [title sizeWithAttributes:@{NSFontAttributeName:KFONT(15.0f)}];
+        barButton.titleLabel.font = ZFont(15.0f);
+        CGSize titleSize = [title sizeWithAttributes:@{NSFontAttributeName:ZFont(15.0f)}];
         CGRect oldFrame = barButton.frame;
         oldFrame.size.width = titleSize.width + barButton.currentImage.size.width;
         barButton.frame = oldFrame;
@@ -57,11 +57,11 @@
     
     // 2.设置标题
     [barButton setTitle:title forState:UIControlStateNormal];
-    [barButton setTitleColor:EColor_217dd5 forState:UIControlStateNormal];
-    barButton.titleLabel.font = KFONT(17.0f);
+    [barButton setTitleColor:ZColor_217dd5 forState:UIControlStateNormal];
+    barButton.titleLabel.font = ZFont(17.0f);
     
     // 3.设置Frame
-    barButton.frame = (CGRect){{0, 0}, [title sizeWithAttributes:@{NSFontAttributeName:KFONT(17.0f)}]};
+    barButton.frame = (CGRect){{0, 0}, [title sizeWithAttributes:@{NSFontAttributeName:ZFont(17.0f)}]};
     
     // 4.添加点击事件监听
     [barButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];

@@ -6,11 +6,11 @@
 //  Copyright © 2016年 luxiaoming. All rights reserved.
 //
 
-#import "UIButton+LXMImagePosition.h"
+#import "UIButton+ZImagePosition.h"
 
-@implementation UIButton (LXMImagePosition)
+@implementation UIButton (ZImagePosition)
 
-- (void)setImagePosition:(LXMImagePosition)postion spacing:(CGFloat)spacing {
+- (void)setImagePosition:(ZImagePosition)postion spacing:(CGFloat)spacing {
     [self setTitle:self.currentTitle forState:UIControlStateNormal];
     [self setImage:self.currentImage forState:UIControlStateNormal];
 
@@ -34,25 +34,25 @@
     CGFloat changedHeight = labelHeight + imageHeight + spacing - tempHeight;
     
     switch (postion) {
-        case LXMImagePositionLeft:
+        case ZImagePositionLeft:
             self.imageEdgeInsets = UIEdgeInsetsMake(0, -spacing/2, 0, spacing/2);
             self.titleEdgeInsets = UIEdgeInsetsMake(0, spacing/2, 0, -spacing/2);
             self.contentEdgeInsets = UIEdgeInsetsMake(0, spacing/2, 0, spacing/2);
             break;
             
-        case LXMImagePositionRight:
+        case ZImagePositionRight:
             self.imageEdgeInsets = UIEdgeInsetsMake(0, labelWidth + spacing/2, 0, -(labelWidth + spacing/2));
             self.titleEdgeInsets = UIEdgeInsetsMake(0, -(imageWidth + spacing/2), 0, imageWidth + spacing/2);
             self.contentEdgeInsets = UIEdgeInsetsMake(0, spacing/2, 0, spacing/2);
             break;
             
-        case LXMImagePositionTop:
+        case ZImagePositionTop:
             self.imageEdgeInsets = UIEdgeInsetsMake(-imageOffsetY, imageOffsetX, imageOffsetY, -imageOffsetX);
             self.titleEdgeInsets = UIEdgeInsetsMake(labelOffsetY, -labelOffsetX, -labelOffsetY, labelOffsetX);
             self.contentEdgeInsets = UIEdgeInsetsMake(imageOffsetY, -changedWidth/2, changedHeight-imageOffsetY, -changedWidth/2);
             break;
             
-        case LXMImagePositionBottom:
+        case ZImagePositionBottom:
             self.imageEdgeInsets = UIEdgeInsetsMake(imageOffsetY, imageOffsetX, -imageOffsetY, -imageOffsetX);
             self.titleEdgeInsets = UIEdgeInsetsMake(-labelOffsetY, -labelOffsetX, labelOffsetY, labelOffsetX);
             self.contentEdgeInsets = UIEdgeInsetsMake(changedHeight-imageOffsetY, -changedWidth/2, imageOffsetY, -changedWidth/2);

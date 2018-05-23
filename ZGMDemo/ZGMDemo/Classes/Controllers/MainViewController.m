@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "ZMyImageController.h"
 
 @interface MainViewController ()<UITableViewDelegate,UITableViewDataSource>
 //
@@ -20,8 +21,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"test222";
     [self.view addSubview:self.mainTableView];
+    self.customTitle = @"首页";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
@@ -31,21 +32,21 @@
     return 35;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString *reuserId = @"reuseId";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuserId];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ZIdentifiers(UITableViewCell)];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:reuserId];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ZIdentifiers(UITableViewCell)];
     }
     cell.textLabel.text = self.titleArray[indexPath.row];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
+    ZMyImageController *myImageVC = [[ZMyImageController alloc] init];
+    [self.navigationController pushViewController:myImageVC animated:YES];
 }
 - (UITableView *)mainTableView{
 
     if (!_mainTableView) {
-        _mainTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, Screen_Width, Screen_Height) style:UITableViewStylePlain];
+        _mainTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, NavHeigth, ZScreenWidth, ZScreenHeigth - NavHeigth) style:UITableViewStylePlain];
         _mainTableView.delegate = self;
         _mainTableView.dataSource = self;
         _mainTableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
