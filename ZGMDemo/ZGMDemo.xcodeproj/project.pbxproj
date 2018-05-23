@@ -26,9 +26,6 @@
 		79BD879D1EF8B3D400AE431A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79BD87A01EF8B3D400AE431A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79BD87A21EF8B3D400AE431A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79BD87B11EF8B6D800AE431A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		79BD87B21EF8B95B00AE431A /* DefineFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineFiles.h; sourceTree = "<group>"; };
-		79BD87B31EF8B95B00AE431A /* ImportFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportFiles.h; sourceTree = "<group>"; };
 		79BD87BC1EF8FE9C00AE431A /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		79BD87BD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		79BD87BE1EF8FE9C00AE431A /* UIButton+LXMImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LXMImagePosition.h"; sourceTree = "<group>"; };
@@ -89,9 +86,6 @@
 				79BD87941EF8B3D400AE431A /* AppDelegate.h */,
 				79BD87951EF8B3D400AE431A /* AppDelegate.m */,
 				79BD87921EF8B3D400AE431A /* main.m */,
-				79BD87B11EF8B6D800AE431A /* PrefixHeader.pch */,
-				79BD87B21EF8B95B00AE431A /* DefineFiles.h */,
-				79BD87B31EF8B95B00AE431A /* ImportFiles.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -102,8 +96,6 @@
 				79BD87BB1EF8FE9C00AE431A /* Category */,
 				79BD87C01EF8FE9C00AE431A /* ConstFiles */,
 				79BD87C41EF8FE9C00AE431A /* Controllers */,
-				79BD87CB1EF8FE9C00AE431A /* Models */,
-				79BD87CC1EF8FE9C00AE431A /* Views */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -140,20 +132,6 @@
 				79BD87CA1EF8FE9C00AE431A /* ZZNavigationController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		79BD87CB1EF8FE9C00AE431A /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		79BD87CC1EF8FE9C00AE431A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
