@@ -17,7 +17,8 @@
 /** 屏幕高度 */
 #define ZScreenHeigth [UIScreen mainScreen].bounds.size.height
 /** 导航栏高度 */
-#define NavHeigth (ZScreenWidth == 812.0 ? 83 : 64)
+#define NavHeigth (ZScreenHeigth == 812.0 ? 88 : 64)
+
 /** 常用圆角 */
 
 /** 常用颜色 */
@@ -55,3 +56,11 @@
 /** 透明色 */
 #define ZColor_clearColor [UIColor clearColor]
 
+
+
+/** 打印日志 */
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"时间:%s 行号:%d 方法名:%s:%s", __TIME__,__LINE__,__func__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else
+#define NSLog(FORMAT, ...) nil
+#endif

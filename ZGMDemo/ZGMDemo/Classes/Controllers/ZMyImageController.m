@@ -10,6 +10,8 @@
 
 @interface ZMyImageController ()
 
+/** 图片 */
+/**  */
 @end
 
 @implementation ZMyImageController
@@ -17,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.customTitle = @"图片缓存";
-//    self.leftItemTitle = @"返回";
     self.rightItemTitle = @"点击";
 }
 
