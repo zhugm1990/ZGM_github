@@ -16,6 +16,9 @@
 		79BD87CF1EF8FE9C00AE431A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87C61EF8FE9C00AE431A /* MainViewController.m */; };
 		79BD87D01EF8FE9C00AE431A /* ZZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87C81EF8FE9C00AE431A /* ZZBaseViewController.m */; };
 		79BD87D11EF8FE9C00AE431A /* ZZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD87CA1EF8FE9C00AE431A /* ZZNavigationController.m */; };
+		A60454D520BBE7DD00D43F56 /* UIImageView+ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A60454D420BBE7DD00D43F56 /* UIImageView+ImageCache.m */; };
+		A60454D820BBEDD500D43F56 /* ZImageCacheManage.m in Sources */ = {isa = PBXBuildFile; fileRef = A60454D720BBEDD500D43F56 /* ZImageCacheManage.m */; };
+		A60454DE20BBF2A900D43F56 /* ZGetImageCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A60454DD20BBF2A900D43F56 /* ZGetImageCacheTool.m */; };
 		A631E7AB20B55091006CFC1F /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A631E7AA20B55091006CFC1F /* UIButton+Extension.m */; };
 		A631E7AF20B55995006CFC1F /* ZCalculateSizeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A631E7AE20B55995006CFC1F /* ZCalculateSizeTool.m */; };
 		A631E7B220B56681006CFC1F /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A631E7B120B56681006CFC1F /* UILabel+Extension.m */; };
@@ -43,6 +46,12 @@
 		79BD87C81EF8FE9C00AE431A /* ZZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBaseViewController.m; sourceTree = "<group>"; };
 		79BD87C91EF8FE9C00AE431A /* ZZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNavigationController.h; sourceTree = "<group>"; };
 		79BD87CA1EF8FE9C00AE431A /* ZZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNavigationController.m; sourceTree = "<group>"; };
+		A60454D320BBE7DD00D43F56 /* UIImageView+ImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageCache.h"; sourceTree = "<group>"; };
+		A60454D420BBE7DD00D43F56 /* UIImageView+ImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageCache.m"; sourceTree = "<group>"; };
+		A60454D620BBEDD500D43F56 /* ZImageCacheManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZImageCacheManage.h; sourceTree = "<group>"; };
+		A60454D720BBEDD500D43F56 /* ZImageCacheManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZImageCacheManage.m; sourceTree = "<group>"; };
+		A60454DC20BBF2A900D43F56 /* ZGetImageCacheTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGetImageCacheTool.h; sourceTree = "<group>"; };
+		A60454DD20BBF2A900D43F56 /* ZGetImageCacheTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGetImageCacheTool.m; sourceTree = "<group>"; };
 		A631E7A920B55091006CFC1F /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
 		A631E7AA20B55091006CFC1F /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		A631E7AD20B55995006CFC1F /* ZCalculateSizeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCalculateSizeTool.h; sourceTree = "<group>"; };
@@ -105,6 +114,7 @@
 		79BD87BA1EF8FE9C00AE431A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A60454D220BBE78C00D43F56 /* ZImageCache */,
 				A631E7AC20B55950006CFC1F /* CommonTool */,
 				79BD87BB1EF8FE9C00AE431A /* Category */,
 				79BD87C01EF8FE9C00AE431A /* ConstFiles */,
@@ -151,6 +161,19 @@
 				A631E7B420B575C0006CFC1F /* ZMyImageController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A60454D220BBE78C00D43F56 /* ZImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				A60454D320BBE7DD00D43F56 /* UIImageView+ImageCache.h */,
+				A60454D420BBE7DD00D43F56 /* UIImageView+ImageCache.m */,
+				A60454D620BBEDD500D43F56 /* ZImageCacheManage.h */,
+				A60454D720BBEDD500D43F56 /* ZImageCacheManage.m */,
+				A60454DC20BBF2A900D43F56 /* ZGetImageCacheTool.h */,
+				A60454DD20BBF2A900D43F56 /* ZGetImageCacheTool.m */,
+			);
+			path = ZImageCache;
 			sourceTree = "<group>";
 		};
 		A631E7AC20B55950006CFC1F /* CommonTool */ = {
@@ -233,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				79BD87CE1EF8FE9C00AE431A /* UIButton+ZImagePosition.m in Sources */,
+				A60454D520BBE7DD00D43F56 /* UIImageView+ImageCache.m in Sources */,
 				A631E7B520B575C0006CFC1F /* ZMyImageController.m in Sources */,
 				A631E7AF20B55995006CFC1F /* ZCalculateSizeTool.m in Sources */,
+				A60454D820BBEDD500D43F56 /* ZImageCacheManage.m in Sources */,
 				A631E7AB20B55091006CFC1F /* UIButton+Extension.m in Sources */,
 				79BD87CD1EF8FE9C00AE431A /* UIBarButtonItem+Extension.m in Sources */,
 				79BD87D11EF8FE9C00AE431A /* ZZNavigationController.m in Sources */,
@@ -242,6 +267,7 @@
 				79BD87D01EF8FE9C00AE431A /* ZZBaseViewController.m in Sources */,
 				79BD87CF1EF8FE9C00AE431A /* MainViewController.m in Sources */,
 				A631E7B220B56681006CFC1F /* UILabel+Extension.m in Sources */,
+				A60454DE20BBF2A900D43F56 /* ZGetImageCacheTool.m in Sources */,
 				79BD87931EF8B3D400AE431A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
